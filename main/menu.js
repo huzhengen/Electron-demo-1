@@ -6,6 +6,7 @@ var template = [
     submenu: [
       {
         label: '英超',
+        accelerator: `ctrl+n`,
         click: () => {
           win = new BrowserWindow({
             width: 500,
