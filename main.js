@@ -6,6 +6,7 @@ var BrowserWindow = electron.BrowserWindow;
 
 var mainWindow = null;
 app.on('ready', () => {
+  require('./main/menu.js')
   mainWindow = new BrowserWindow({
     width: 500,
     height: 500,
