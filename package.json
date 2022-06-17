@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/huzhengen/Electron-demo-1#readme",
   "devDependencies": {
-    "electron": "^7.1.11"
+    "electron": "^15.5.5"
   }
 }
